@@ -1,0 +1,139 @@
+canvas {
+    background-color: aliceblue;
+    border: 5px blueviolet;
+    margin: auto;
+    display:block;
+}
+
+#container{
+    position:absolute;
+    top:0px;
+    
+}
+
+#buttonsContainer{
+    position:relative;
+    margin:auto;
+    height:50px;
+    width:295px;
+    display:block;
+    left: 0px;
+    top:480px;
+    padding:15px 7px 4px 14px;
+    background: cadetblue;
+    border: 1px black;
+}
+
+#moveButton{
+    transition-duration: 0.5s;
+}
+    .moveButton:hover{
+        background-color: white;
+        color: beige;
+    }
+
+
+#leftButton{
+    transition-duration: 0.5s;
+}
+    .leftButton:hover{
+        background-color: white;
+        color: beige;
+    }
+
+
+#rightButton{
+    transition-duration: 0.5s;
+}
+    .rightButton:hover{
+        background-color: white;
+        color: beige;
+    }
+
+#attackButton{
+    transition-duration: 0.5s;
+}
+    .attackButton:hover{
+        background-color: white;
+        color: beige;
+    }
+
+#reportButton{
+    transition-duration: 0.5s;
+}
+    .reportButton:hover{
+        background-color: white;
+        color: beige;
+    }
+
+#placeButton{
+    transition-duration: 0.5s;
+}
+    .placeButton:hover{
+        background-color: white;
+        color: beige;
+    }
+
+#dialogBoxContainer{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    top:350px;
+    left:30px;
+    background: lightgray;
+    border: 2px solid black;
+}
+
+#okButton{
+    transition-duration: 0.5s;
+}
+    .okButton {
+        background-color: white;
+        color: beige;
+    }
+
+#cancelButton{
+    transition-duration: 0.5s;
+}
+    .cancelButton{
+        background-color: white;
+        color: beige;
+    }
+
+    #xPosition{
+        position: absolute;
+        top: 50px;
+        left:10px;
+    }
+
+    #xInput{
+        position: absolute;
+        width: 40px;
+        top:50px;
+        left: 40px;
+    }
+
+    #yPosition{
+        position: absolute;
+        top: 80px;
+        left:10px;
+    }
+
+    #yInput{
+        position: absolute;
+        width:40px;
+        top:80px;
+        left:40px;
+    }
+
+    #direction{
+        position: absolute;
+        top:60px;
+        left:120px;
+    }
+
+    #ChooseFacing{
+        position: absolute;
+        top:60px;
+        left: 180px;
+    }

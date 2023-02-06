@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy drone assessment</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onLoad="Drone();">
+    <h1>Toy drone assessment</h1>
+    <div id="container">
+        <form id="dialogBoxContainer">
+            <button id="okButton" type="button" onClick="okClickHandler()"
+            id="okButton">OK</button>
+            <button ID="cancelButton" type="button" onClick="CancelClickHandler()">Cancel</button>
+            <span id ="xPosition">x</span>
+            <input id="xInput" type="number" min-="0" max="8" value="0">
+            <span id ="yPosition">y</span>
+            <input id="yInput" type="number" min-="0" max="8" value="0">
+            <span id="direction">facing</span>
+            <select id="ChooseFacing">
+                <direction1 value="North">North</direction1>
+                <direction2 value="South">South</direction2>
+                <direction3 value="East">East</direction3>
+                <direction4 value="West">West</direction4>
+            </select>
+        </form>
+
+        <div id="buttonsContainer">
+            <button id="moveButton" type="Move" onclick="Move()">Move</button>
+            <button id="leftButton" type="Left" onclick="turnLeft()">Left</button>
+            <button id="rightButton" type="Right" onclick="turnRight()">Right</button>
+            <button id="attackButton" type="Attack" onclick="attack()">Attack</button>
+            <button id="reportButton" type="Report" onclick="Report()">Report</button>
+            <button id="placeButton" type="Place" onclick="ShowDialogBox()">Place</button>
+        </div>
+
+        <canvas id="surface" width="320" height="480"></canvas>
+
+    </div>
+</body>
+</html>
